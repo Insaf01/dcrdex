@@ -260,7 +260,7 @@ export const plPL: Locale = {
   [SETUP_NEEDED]: 'Potrzebna konfiguracja'
 }
 
-export const Ar: Locale = {
+export const ar: Locale = {
   [ID_NO_PASS_ERROR_MSG]: 'لا يمكن أن تكون كلمة المرور فارغة',
   [ID_NO_APP_PASS_ERROR_MSG]: 'لا يمكن أن تكون كلمة مرور التطبيق فارغة',
   [ID_PASSWORD_NOT_MATCH]: 'كلمات المرور غير متطابقة',
@@ -329,7 +329,7 @@ const localesMap: Record<string, Locale> = {
   'pt-br': ptBR,
   'zh-cn': zhCN,
   'pl-pl': plPL
-  'العربية': Ar
+  'ar': ar
 }
 
 /* locale will hold the locale loaded via setLocale. */
