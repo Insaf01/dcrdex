@@ -1590,8 +1590,8 @@ var deDE = map[Topic]*translation{
 	},
 }
 
-// العربية is the Arabic translations.
-var العربية = map[Topic]*translation{
+// ar is the Arabic translations
+var ar = map[Topic]*translation{
 	// [host]
 	TopicAccountRegistered: {
 		subject:  "تم تسجيل الحساب",
@@ -1929,7 +1929,7 @@ var locales = map[string]map[Topic]*translation{
 	"zh-CN":    zhCN,
 	"pl-PL":    plPL,
 	"de-DE":    deDE, // language.German is de
-	"العربية":  العربية , //language.Arabic is العربية
+	//language.Arabic is ar
 }
 
 func init() {
